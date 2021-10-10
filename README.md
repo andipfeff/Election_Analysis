@@ -2,11 +2,9 @@
 
 ## Overview
 
+This election audit was performed for a recent Colorado congressional election using Python and Visual Studio Code. The votes, which had been compiled into a csv file, were tallied and the following summaries were output into a txt file for the election commission: total votes, votes and percentage of votes by county, the county that had the highest voter turnout, votes and percentage of votes by candidate, along with a section calling out the election winner and their respective votes and vote percentage.
+
 ## Results
-
-- ### Election Winner:
-
-&nbsp; &nbsp; &nbsp; &nbsp; ![Election_Winner](https://user-images.githubusercontent.com/90863226/136712271-dbe1ed54-bda5-4824-950c-f77bedec3ba8.png)
 
 - ### Total Votes:
 
@@ -23,6 +21,10 @@
 - ### Votes by Candidate:
 
 &nbsp; &nbsp; &nbsp; &nbsp; ![Votes_By_Candidate](https://user-images.githubusercontent.com/90863226/136712400-96185e26-b496-4c85-ac2f-75b77ac4be61.png)
+
+- ### Election Winner:
+
+&nbsp; &nbsp; &nbsp; &nbsp; ![Election_Winner](https://user-images.githubusercontent.com/90863226/136712271-dbe1ed54-bda5-4824-950c-f77bedec3ba8.png)
 
 ## Summary
 
