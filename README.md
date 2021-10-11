@@ -28,3 +28,10 @@ This election audit was performed for a recent Colorado congressional election u
 
 ## Summary
 
+This Python script was a quick and easy way to perform this election audit, and with a few minor modifications could be used to audit nearly any election. As long as the election votes are compiled in a csv file in a similar format you should be able to use this same code making the following modifications:
+
+1. The file location, in row 9, for the file containing the compiled votes: `file_to_load = os.path.join("Resources", "election_results.csv")`
+2. The file location, in row 11, where you would like to save the results: `file_to_save = os.path.join("analysis", "election_analysis.txt")`
+3. Check to make sure the columns are in the same order and if not modify the following two lines of code:
+   - row 48: `candidate_name = row[2]`
+   - row 51: `county_name = row[1]`
